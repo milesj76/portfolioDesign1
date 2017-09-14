@@ -1,0 +1,218 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+
+body {
+	background-color: #E5E5E5;
+	margin: 0;
+}
+
+li {
+	list-style: none;
+	padding: 0.4em 0;
+	font-size: 0.9em;
+	color: #363636;
+}
+
+@media (min-width: 48rem) {
+	li {
+		margin-left: -1.3em;
+	}
+}
+
+.container-main {
+	width: 98%;
+	display: block;
+	margin: 0 auto;
+	margin-top: 1em;
+	margin-bottom: 2rem;
+	background-color: #E5E5E5;
+}
+
+.container {
+	margin: 1rem;
+	box-shadow: 0 1em 1em 0 rgba(0, 0, 0, 0.3);
+}
+
+.container-left {
+	margin: 1rem;
+	box-shadow: 0 1em 1em 0 rgba(0, 0, 0, 0.3);
+}
+
+.container-right {
+	display: block;
+	margin: 1rem;
+	box-shadow: 0 1em 1em 0 rgba(0, 0, 0, 0.3);
+}
+
+@media (min-width: 48rem) {
+	.container-main {
+		
+	}
+
+	.container-left {
+	display: block;
+	float: left;
+	margin: 0.8rem;
+	box-shadow: 0 1em 1em 0 rgba(0, 0, 0, 0.3);
+	width: 33%;
+	}
+
+	.container-right {
+	display: block;
+	float: right;
+	margin: 0.8rem;
+	box-shadow: 0 1em 1em 0 rgba(0, 0, 0, 0.3);
+	width: 60%;
+	}
+}
+
+/* BASIC INFO BOX
+=============================================================*/
+
+img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	vertical-align: middle;
+}
+
+.basic-name {
+	width: 100%;
+	position: relative;
+	padding: 0.1rem 1rem;
+	margin-top: -5rem;
+	margin-bottom: -1rem;
+	color: #E5E5E5;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+	font-family: 'Playfair Display', sans-serif;
+	font-size: 1.8em;
+	font-weight: 900;
+}
+
+.basicinfo {
+	background-color: #E5E5E5;
+}
+
+.basicinfo-cell {
+	padding: 0.3rem 0;
+}
+
+.general {
+
+}
+
+.border-top {
+	border-top: solid 2px #242F40;
+}
+
+.header-box {
+	color: #E5E5E5;
+	border-left: solid 2rem #CCA43B;
+	background-color: #242F40;
+	padding: 0.1rem 0.8rem;
+}
+
+.header-box h2,
+.header-box h3 {
+	font-family: 'Playfair Display', sans-serif;
+	font-weight: 400;
+}
+
+@media (min-width: 48rem) {
+	.basicinfo {
+		width: 100%;
+	}
+}
+
+/* WORK EXPERIENCE BOX
+=============================================================*/
+
+.workinfo {
+	background-color: #E5E5E5;
+	color: #363636;
+}
+
+.workinfo-cell {
+	padding: 1em;
+	margin: 1em;
+}
+
+h4 {
+	font-family: 'Playfair Display', serif;
+	font-style: italic;
+	color: #909090;
+}
+
+p {
+	font-size: 0.9em;
+}
+
+/* EDUCATION BOX
+=============================================================*/
+
+.education {
+	background-color: #E5E5E5;
+	color: #363636;
+}
+
+.education-cell {
+	padding: 1em;
+	margin: 1em;
+}
+
+/* FOOTER
+=============================================================*/
+
+.footer {
+	position: relative;
+	z-index: 0;
+	margin: 0;
+	height: auto;
+	background-color: #363636;
+}
+
+.footer-icons {
+	text-align: center;
+	letter-spacing: 0.1rem;
+	padding-top: 1.5em;
+}
+
+.footer-icons i {
+	color: #E5E5E5;
+	font-size: 1.3em;
+}
+
+.footer-icons i:hover {
+	color: #CCA43B;
+}
+
+.footer-textbox {
+	text-align: center;
+	padding: 0em 0.5em;
+	padding-bottom: 1em;
+	color: #E5E5E5;
+}
+
+.footer-textbox a {
+	color: #CCA43B;
+	text-decoration: none;
+}
+
+.footer-textbox a:hover {
+	text-decoration: underline;
+}
+
+.material-icons {
+
+}
+
+@media (min-width: 48rem) {
+	.footer {
+		clear: left; clear: right;
+	}
+}
